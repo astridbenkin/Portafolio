@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #8338ec;
+}
+
+section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerbox {
+    height: 75px;
+    /* border: 1px solid black; */
+    width: 100%;
+    display:flex;
+    flex-direction: row; 
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 0 100px;
+    
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    line-height: 2.0;
+
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    
+}
+
+.button {
+    background-color:#8338ec;
+    color: white;
+    /* border: 1px solid #8338ec; */
+    border-radius: 50px;
+    padding: 3px 31.95px;
+}
+
+.button:hover {
+    background-color: #995cef;
+}
+
+.button > a {
+    color: white;
+}
+
+section#hola {
+ background-color: white;
+}
+
+section#conocimientos {
+    background-color: #995cef;
+}
+
+section#frase {
+    background-color:  white;
+}
+
+section#proyectos {
+    background-color: #995cef;
+}
+
+section#contacto {
+    background-color: white;
+}
