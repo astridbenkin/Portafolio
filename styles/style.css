@@ -61,7 +61,7 @@ section {
     
 }
 
-.button {
+.boton {
     background-color:#8338ec;
     color: white;
     /* border: 1px solid #8338ec; */
@@ -69,23 +69,29 @@ section {
     padding: 3px 31.95px;
 }
 
-.button:hover {
+.boton:hover {
     background-color: #995cef;
 }
 
-.button > a {
+.boton > a {
     color: white;
 }
 
 section#hola {
- background-color: white;
+    width: 100%;
+    display: flex;
+     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+ 
 }
 
 section#conocimientos {
     background-color: #995cef;
 }
 
-section#frase {
+section#cita {
     background-color: white;
 }
 
@@ -95,6 +101,47 @@ section#proyectos {
 
 section#contacto {
     background-color: white;
+}
+
+.intro-seccion {
+    display: flex;
+    flex-direction: column; 
+}
+
+.soy {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nombre {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.habilidades {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.boton-intro {
+    background-color: #995cef;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 100px;
+    height: 50px;
+    width: 40%;
+}
+
+.intro-imagen {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 100px;
+   
 }
 
 footer {
@@ -143,7 +190,6 @@ footer > div {
 }
 
 .icono {
-    width: 26px;
-    height: 26px;
+
 }
 
