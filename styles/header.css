@@ -1,0 +1,48 @@
+.headerbox {
+    width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 0px;
+    box-shadow: darkgrey 0px 3px 5px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    line-height: 2.0;
+}
+
+.menu > li {
+    margin: 0 10px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    line-height: 2.0;
+    font-size: 20px;
+    
+}
+
+.boton {
+    background-color:#6D62FB;
+    color: white;
+    border-radius: 50px;
+    padding: 0 30px;
+}

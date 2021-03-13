@@ -1,0 +1,20 @@
+
+section#cita {
+    width: 100vw;
+    background-color: pink;
+    color: white;
+    display: flex;
+    flex: colum;
+    align-items: center;
+    text-align: center;
+}
+
+.container-cita {
+    width: 100%;
+   
+}
+
+.comillas {
+    height: 100px;
+    width: 100;
+}

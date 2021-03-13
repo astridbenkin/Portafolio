@@ -7,14 +7,22 @@
     <title>Astrid Benavides</title>
     <!---Styles-->
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/section-hola.css">
+    <link rel="stylesheet" href="./styles/section-conocimientos.css">
+    <link rel="stylesheet" href="./styles/section-cita.css">
+    <link rel="stylesheet" href="./styles/section-proyectos.css">
+    <link rel="stylesheet" href="./styles/section-contacto.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    
 
 </head>
 <body>
     <!--------------- Comienzo  Header ---------------------->
     <div class="container"> 
         <header class="headerbox">
-            <nav class="menu">
-                <ul class="nav">
+            <nav class="nav">
+                <ul class="menu">
                     <li>
                         <span class="nav-item"><a href="#hola">HOLA</a></span>
                     </li>
@@ -30,40 +38,72 @@
                 </ul>
             </nav>        
         </header>
-        <!--------------- Final Header -------------------->
+        <!--------------------- Final Header -------------------------------->
 
 
+        <!--------------------- Inicio Sección Hola  ------------------------->
         <section id="hola">
-            <div class="intro-seccion">
-                <p class="soy"> ¡Hola! Soy </p>
+            <div class="hola-items">
+                <p class="soy">¡Hola! Soy</p>
                 <h1 class="nombre">Astrid Benavides</h1>
                 <p class="habilidades">Desarolladora, guitarrista y fan de las matemáticas</p>
-                <a class="boton-intro">LO QUE HAGO </a>
+                <span class="boton-section-hola"><a>LO QUE HAGO</a></span>
             </div>
-            <div>
-                <p class="intro-imagen"> <img src="./assets/images/undraw_programmer_imem.svg" alt="programadora"></p>
+            <div class="container-hola-imagen">
+                <img class="hola-imagen" src="./assets/images/undraw_My_universe_re_txot.svg" alt="programadora">
             </div>
         </section>
-
+     <!------------------------ Final Sección Hola -------------------------->
+     <!-----------------------Inicio Secccion Conocimientos  ----------------->
         
         <section id="conocimientos">
-            <div>
-                <p>Conocimientos</p>
-            </div>
+
+            <div class="section-conocimientos">
+                <h2 class= titulo-conocimientos>Conocimientos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eaque voluptate mollitia 
+                autem sequi vitae sint provident deleniti id doloribus dolorem quos praesentium soluta laudantium!</p>
+           
+                <div class="card-programacion">
+                    <div class="caja-card"><img class="iconos-programacion" src="./assets/iconos/html-5.svg"><p>HTML5</p></div>
+                    <div class="caja-card"><img class="iconos-programacion" src="./assets/iconos/css-3.svg"><p>CSS3</p></div>
+                    <div class="caja-card"><img class="iconos-programacion" src="./assets/iconos/sass.svg"><p>Sass</p></div>
+                    <div class="caja-card"><img class="iconos-programacion" src="./assets/iconos/javascript.svg"><p>JavaScript</p></div>
+                    <div class="caja-card"><img class="iconos-programacion" src="./assets/iconos/physics.svg"><p>React</p></div>
+                    <div class="caja-card"><img class="iconos-programacion"src="./assets/iconos/git-alt-brands.svg"></i>GIT</div>
+                </div>
+         </div>
+            
         </section>
+      
 
         <section id="cita">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique doloremque amet culpa ipsa. Obcaecati, explicabo temporibus? Aliquid nemo accusantium incidunt nobis. Itaque, laborum at adipisci vitae doloribus accusantium cumque repudiandae.
-                Dolorum quo commodi ullam iusto, impedit, accusantium eveniet minus accusamus animi consequuntur ad nulla voluptate illo vel totam error nobis culpa ea ab voluptates at ducimus ratione. Sunt, sequi reiciendis.
-                At quos accusantium optio perspiciatis architecto vero quo rerum. Minus architecto veritatis illum atque quasi sint natus quaerat voluptates sequi assumenda perferendis, reiciendis, enim dignissimos molestiae, aliquid ea saepe omnis.
-                Nulla cum optio nam veritatis eligendi repudiandae ex harum neque commodi, corporis voluptate ab at consequatur exercitationem magni dicta voluptates. Optio dolore aut tenetur sint provident eos temporibus quos sequi.
-                Officiis voluptatem explicabo labore! Ea dolore ab possimus pariatur reiciendis tenetur saepe consequatur omnis? Aperiam aliquid neque consequuntur ex optio impedit itaque deleniti ipsa! Consequuntur ex incidunt dignissimos velit tempore?
-                </p>
+            <div class="container-cita">
+                <div><img class="comillas"src="./assets/iconos/marca-derecha-de-la-cita.svg" alt="comillas"></div>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique doloremque amet culpa ipsa. 
+                    Obcaecati, explicabo temporibus? Aliquid nemo accusantium incidunt nobis. Itaque. </p>
+                
+                <h3>Someone</h3>
+            </div>
         </section>
 
         <section id="proyectos">
-            <div>
-                <p>Proyectos</p>
+            <div class= seccion-proyectos>
+                <h2>Proyectos</h2>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nulla minima at laboriosam vero voluptates 
+                exercitationem maxime odit debitis nostrum ab repellendus enim, velit, veniam qui ipsa delectus, praesentium doloribus.</p>
+
+                <div class="card-proyectos">
+                    <a href="">Portfolio</a>
+                    <a href="">Generador de memes</a>
+                    <a href="">Match 3</a>
+                    <a href="">Controlador de gastos</a>
+                    <a href="">Administrador de reuniones</a>
+                    <a href="">Todo app</a>
+                    <a href="">Buscador de películas</a>
+                </div>
+
             </div>
         </section>
 
@@ -75,7 +115,7 @@
         </section>
 
 
-    <footer>
+     <footer>
         <div class="footer-menu">
             <nav>
                 <a href="#hola">HOLA</a>
@@ -93,7 +133,7 @@
         <div class="footer-autor">
             <p>Hecho con ❤️ por Astrid</p>
         </div>
-    </footer>
+     </footer>
 
     </div>
 </body>

@@ -1,0 +1,45 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#6D62FB;
+    height: fit-content;
+    padding: 20px;
+}
+
+footer > div {
+    margin: 15px 0;
+}
+/* 
+.footer-menu {
+   
+} */
+
+.footer-menu > nav > a,
+.footer-menu > nav > a:hover, 
+.footer-menu > nav > a:active {
+    color: white;
+    margin: 0 10px
+}
+
+.footer-iconos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-iconos > div {
+    color:white;
+    margin: 5px 10px;
+
+}
+
+.footer-iconos > div > a {
+    color: white;
+}
+
+.footer-autor {
+    color: white;
+}
