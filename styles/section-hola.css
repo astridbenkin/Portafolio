@@ -7,6 +7,7 @@ section#hola {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-top: 90px;
     background-color:#FFFFFF;
 
 }
@@ -33,9 +34,7 @@ section#hola {
     margin-bottom: 5px;
 }
 
-.boton-section-hola {
-    background-color: #6D62FB;
-    color:white;
+.boton-loquehago {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +42,7 @@ section#hola {
     border-radius: 100px;
     height: 50px;
     width: 40%;
+    font-size: 20px;
 }
 
 .container-hola-imagen {
