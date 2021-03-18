@@ -1,16 +1,44 @@
 
 section#proyectos {
-    background-color: #6D62FB;
+    background-color: white;
 }
 
 h2 {
-    font-size: 50px;
-    font-weight: bolder;
+    font-size: 65px;
+    
 }
 
-.seccion-proyectos {
+.p-descripcion {
+    width: 400px;
+}
+
+.container-proyectos {
     display: flex;
     flex-direction:column; 
     align-items: center; 
 }
 
+.card-proyectos {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+
+}
+
+.cajita-img {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid lightgray;
+    border-radius: 8px;
+    margin: 20px
+}
+
+.img-proyectos {
+    width: 250px;
+  
+}

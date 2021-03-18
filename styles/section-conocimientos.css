@@ -6,18 +6,16 @@ section#conocimientos {
     justify-content: space-evenly;
     background-color: #FFFFFF;
 }
+h2 {
+    font-size: 65px;
+}
 
-.section-conocimientos {
+.container-conocimientos {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-
-.titulo-conocimientos {
-    font-size: 50px;
-    font-weight: bolder;
+    justify-content:space-between;
 }
 
 .card-programacion {
