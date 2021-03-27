@@ -3,3 +3,57 @@
 section#contacto {
     background-color: white;
 }
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.container-contacto {
+    width: 70%;
+    display: flex; 
+    flex-direction: row;  
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 80px 60px;
+}
+
+.contactame-columna {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    
+}
+
+.containerN-A {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.cajaN-A {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    background-color: #F6F7FB;
+    border: 1px solid #F6F7FB;
+    border-radius: 10px;
+    color: #7D7D7D;
+    padding: 5px;
+    
+}

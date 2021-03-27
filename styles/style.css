@@ -43,6 +43,7 @@ section {
 }
 
 ul li, ol li {
+    text-decoration: none;
     line-height: 1.4;
 }
 
