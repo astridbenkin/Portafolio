@@ -43,14 +43,17 @@
 
         <!--------------------- Inicio Sección Hola  ------------------------->
         <section id="hola">
-            <div class="hola-items">
-                <p class="soy">¡Hola! Soy</p>
-                <h1 class="nombre">Astrid Benavides</h1>
-                <p class="habilidades">Desarolladora, guitarrista y fan de las matemáticas</p>
-                <span class="boton boton-loquehago"><a>LO QUE HAGO</a></span>
-            </div>
-            <div class="container-hola-imagen">
-                <img class="hola-imagen" src="./assets/images/undraw_My_universe_re_txot.svg" alt="programadora">
+            <div class="container-hola">
+                <div class="hola-items">
+                    <p class="soy">¡Hola! Soy</p>
+                    <h1 class="nombre">Astrid Benavides</h1>
+                    <p class="habilidades">Desarolladora, guitarrista y fan de las matemáticas</p>
+                    <span class="boton boton-loquehago"><a>LO QUE HAGO</a></span>
+                </div>
+
+                <div class="container-hola-imagen">
+                    <img class="hola-imagen" src="./assets/images/undraw_My_universe_re_txot.svg" alt="programadora">
+                </div>
             </div>
         </section>
      <!------------------------ Final Sección Hola -------------------------->
@@ -59,8 +62,8 @@
         <section id="conocimientos">
 
             <div class="container-conocimientos">
-                <h2 class= titulo-conocimientos>Conocimientos</h2>
-                <p class="p.descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eaque voluptate mollitia 
+                <h1 class= titulo-conocimientos>Mis Conocimientos</h1>
+                <p class="descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eaque voluptate mollitia 
                 autem sequi vitae sint provident deleniti id doloribus dolorem quos praesentium soluta laudantium!</p>
            
                 <div class="card-programacion">
@@ -78,12 +81,19 @@
         <!------------------------ Inicio Sección Cita-------------------------->
         <section id="cita">
             <div class="container-cita">
-                <div><img class="comillas"src="./assets/iconos/marca-derecha-de-la-cita.svg" alt="comillas"></div>
+                <div class="comillas">
+                    <img class="comillas-img" src="./assets/iconos/marca-derecha-de-la-cita.svg" alt="comillas">
+                </div>
 
-                <span><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique doloremque amet culpa ipsa. 
-                    Obcaecati, explicabo temporibus? Aliquid nemo accusantium incidunt nobis. Itaque.</p></span>
+                <div class="cita">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique doloremque amet culpa ipsa. 
+                    Obcaecati, explicabo temporibus? Aliquid nemo accusantium incidunt nobis. Itaque.</p>
+                </div>
                 
-                <h3>Someone</h3>
+                <div class="cita-autor">
+                    <p>Someone</p>
+                </div>
+            
             </div>
         </section>
         <!-----------------------Fin Secccion Cita ----------------------->
@@ -92,35 +102,46 @@
 
         <section id="proyectos">
             <div class= container-proyectos>
-                <h2>Proyectos</h2>
+                <h1> Mis Proyectos</h1>
 
-                <p class="p.descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                        Saepe nulla minima at laboriosam vero voluptates 
-                                        exercitationem maxime odit debitis nostrum ab repellendus enim, 
-                                        velit, veniam qui ipsa delectus, praesentium doloribus.</p>
+                <p class="descripcion">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Saepe nulla minima at laboriosam vero voluptates 
+                    exercitationem maxime odit debitis nostrum ab repellendus enim, 
+                    velit, veniam qui ipsa delectus, praesentium doloribus.
+                </p>
 
                 <div class="card-proyectos">
-                    <div class="cajita-img"><img class= img-proyectos src="./assets/images/Captura de Pantalla 2021-03-18 a la(s) 02.48.51 p. m..png">
-                        <a href="">Portfolio</a> 
-                    </div>
-                    <div class="cajita-img"><img class= img-proyectos src="./assets/images/undraw_mobile_user_7oqo.svg">
-                        <a href="">Generador de memes</a>
-                    </div>
-                    <div class="cajita-img"><img class= img-proyectos src="./assets/images/undraw_old_day_6x25.svg">
-                        <a href="">Match 3</a>
-                    </div>
-                    <div class="cajita-img"><img class= img-proyectos src="./assets/images/undraw_wallet_aym5.svg">
-                        <a href="">Controlador de gastos</a>
-                    </div>
-                    <div class="cajita-img"><img class= img-proyectos src="./assets/images/undraw_To_do_list_re_9nt7.svg">
-                        <a href="">Administrador de reuniones</a>
-                    </div> 
-                    <div class="cajita-img"><img src="./assets/images/undraw_mobile_user_7oqo.svg">
-                        <a href="">Todo app</a>
-                    </div> 
-                    <div class="cajita-img"><img class= img-proyectos  src="./assets/images/undraw_movie_night_fldd.svg" alt="">
-                        <a href="">Buscador de películas</a>
-                    </div>
+                    
+                    <a class="cajita-img" href="#proyectos" target="_blank">
+                        <img class= "img-proyectos" src="./assets/images/Captura de Pantalla 2021-03-18 a la(s) 02.48.51 p. m..png" alt="">
+                        <p>Portfolio</p>
+                    </a>     
+                    <a class="cajita-img" href="#proyectos" target="_blank">
+                        <img class= "img-proyectos" src="./assets/images/undraw_mobile_user_7oqo.svg" alt="">
+                        <p>Generador de memes</p>
+                    </a>     
+                    <a class="cajita-img" href="#proyectos" target="_blank">
+                        <img class= "img-proyectos" src="./assets/images/undraw_old_day_6x25.svg" alt="">
+                        <p>Match 3</p>
+                    </a>     
+                    <a class="cajita-img" href="#proyectos" target="_blank">
+                        <img class= "img-proyectos" src="./assets/images/undraw_wallet_aym5.svg" alt="">
+                        <p>Controlador de gastos</p>
+                    </a>     
+                    <a class="cajita-img" href="#proyectos" target="_blank">
+                        <img class= "img-proyectos" src="./assets/images/undraw_mobile_user_7oqo.svg" alt="">
+                        <p>Administrador de reuniones</p>
+                    </a>     
+                    <a class="cajita-img" href="#proyectos" target="_blank">
+                        <img class= "img-proyectos" src="./assets/images/undraw_mobile_user_7oqo.svg" alt="">
+                        <p>Todo app</p>
+                    </a>     
+                    <a class="cajita-img" href="#proyectos" target="_blank">
+                        <img class= "img-proyectos" src="./assets/images/undraw_movie_night_fldd.svg" alt="">
+                        <p>Buscador de películas</p>
+                    </a>           
+                    
                 </div>
             </div>
         </section>
@@ -133,23 +154,23 @@
             <div class="container-contacto">
                 
                 <div class="contactame-columna">
-                    <h1>Contactame</h1>
+                    <h2 class="contactame-titulo">Contactame</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Vero repellat perferendis autem. Alias, molestias laudantium c
                     orporis saepe, natus facere quas officiis dolor deleniti cupiditate 
                     incidunt iste architecto nesciunt dolorum sequi.</p>
                         
                     <ul>
-                        <li> <a href="Twitter"><img class= "icono" src="./assets/iconos/twitter.png" alt="Twitter">Twitter</a></li>
-                        <li> <a href="GitHub"><img class= "icono" src="./assets/iconos/github.png" alt="GitHub">Astridbenkin</a></li>
-                        <li><a href="Linkedin"><img class= "icono" src="./assets/iconos/linkedin.png" alt="linkedin">Astrid Benavides</a></li>
-                        <li><a href="email"><img  class= "icono"src="./assets/iconos/email.png" alt="email"></a>Astridbenq@gmail.com</li>
+                        <li> <a href="Twitter"><img class= "icono2" src="./assets/iconos/twitter2.svg" alt="Twitter">Twitter</a></li>
+                        <li> <a href="GitHub"><img class= "icono2" src="./assets/iconos/github.png" alt="GitHub">Astridbenkin</a></li>
+                        <li><a href="Linkedin"><img class= "icono2" src="./assets/iconos/linkedin.png" alt="linkedin">Astrid Benavides</a></li>
+                        <li><a href="email"><img  class= "icono2"src="./assets/iconos/email.png" alt="email"></a>Astridbenq@gmail.com</li>
                      </ul>
                 </div>
 
                 <div class="contactame-columna">
 
-                    <h1>Escribime</h1>
+                    <h2 class="escribeme-titulo">Escribime</h2>
 
                     <div class="containerN-A">
                         <div class="cajaN-A">
@@ -193,7 +214,7 @@
             </nav>
         </div>
         <div class="footer-iconos">
-            <div><a href="#twitter"><img class= "icono" src="./assets/iconos/twitter.png"></div>
+            <div><a href="#twitter"><img class= "icono" src="./assets/iconos/twitter.png"> </div>
             <div><a href="#github"><img class="icono" src="./assets/iconos/github.png"></div>
             <div><a href="#linkedin"><img class="icono" src="./assets/iconos/linkedin.png"></div>
             <div><a href="email"><img class="icono" src="./assets/iconos/email.png"></div>

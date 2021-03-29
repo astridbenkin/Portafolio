@@ -6,9 +6,7 @@ section#conocimientos {
     justify-content: space-evenly;
     background-color: #FFFFFF;
 }
-h2 {
-    font-size: 65px;
-}
+
 
 .container-conocimientos {
     width: 100%;
@@ -23,6 +21,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .caja-card {
@@ -37,6 +36,12 @@ h2 {
     margin: 10px;  
 }
 
+.caja-card:hover {
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+
 .iconos-programacion {
     height: 150px;
     width: 100px;
@@ -45,4 +50,4 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-    
+}

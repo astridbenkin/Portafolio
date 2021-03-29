@@ -35,14 +35,13 @@
     align-items: center;
     justify-content: center;
     padding: 0 10px;
-    line-height: 2.0;
-    font-size: 20px;
-    
+    line-height: 2.235;
+    font-size: 18px; 
 }
 
 .boton {
     background-color:#6D62FB;
     color: white;
     border-radius: 50px;
-    padding: 0, 30px;
+    padding: 0 30px;
 }

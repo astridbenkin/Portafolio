@@ -5,14 +5,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+
+}
+
+body { 
     font-family: 'Philosopher', sans-serif;
     font-size: 18px;
-}
- /* body { }   */
+}  
  
-.container{
+.container {
     height: 100vw;
     width: 100vw;
+}
+
+h1 {
+    font-size: 65px;
+    margin-bottom: 0.375em;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+
+.descripcion {
+    width: 40%;
+    text-align: center;
 }
 
 a {

@@ -12,10 +12,6 @@ footer {
 footer > div {
     margin: 15px 0;
 }
-/* 
-.footer-menu {
-   
-} */
 
 .footer-menu > nav > a,
 .footer-menu > nav > a:hover, 
@@ -43,3 +39,4 @@ footer > div {
 .footer-autor {
     color: white;
 }
+

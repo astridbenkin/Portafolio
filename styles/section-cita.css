@@ -14,16 +14,29 @@ section#cita {
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    align-items: center;
+}
+.comillas {
+    margin-bottom: 40px;
 }
 
-span {
+.comillas-img {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.cita {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 19px 0px;
-
+    max-width: 60%;
+    margin-bottom: 40px;
+    font-size: 26px;
+    
 }
-.comillas {
-    height: 100px;
-    width: 100;
+
+.cita-autor {
+    font-size: 30px;
+    font-weight: bold;
 }
