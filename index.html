@@ -161,10 +161,26 @@
                     incidunt iste architecto nesciunt dolorum sequi.</p>
                         
                     <ul>
-                        <li> <a href="Twitter"><img class= "icono2" src="./assets/iconos/twitter2.svg" alt="Twitter">Twitter</a></li>
-                        <li> <a href="GitHub"><img class= "icono2" src="./assets/iconos/github.png" alt="GitHub">Astridbenkin</a></li>
-                        <li><a href="Linkedin"><img class= "icono2" src="./assets/iconos/linkedin.png" alt="linkedin">Astrid Benavides</a></li>
-                        <li><a href="email"><img  class= "icono2"src="./assets/iconos/email.png" alt="email"></a>Astridbenq@gmail.com</li>
+                        <li class="contactame-sitio">
+                            <a href="Twitter" target="_blank">
+                                <img class= "contactame-icono" src="./assets/iconos/twitter2.svg" alt="Twitter">Twitter
+                            </a>
+                        </li>
+                        <li class="contactame-sitio">
+                            <a href="GitHub" target="_blank">
+                                <img class= "contactame-icono" src="./assets/iconos/github.png" alt="GitHub">astridbenkin
+                            </a>
+                        </li>
+                        <li class="contactame-sitio">
+                            <a href="https://linkedin.com/in/astrid-benavides" target="_blank">
+                                <img class= "contactame-icono" src="./assets/iconos/linkedin.png" alt="linkedin">astrid-benavides
+                            </a>
+                        </li>
+                        <li class="contactame-sitio">
+                            <a href="mailto:astridbenq@gmail.com" target="_blank">
+                                <img  class= "contactame-icono"src="./assets/iconos/email.png" alt="email">astridbenq@gmail.com
+                            </a>
+                        </li>
                      </ul>
                 </div>
 
@@ -173,28 +189,28 @@
                     <h2 class="escribeme-titulo">Escribime</h2>
 
                     <div class="containerN-A">
-                        <div class="cajaN-A">
+                        <div class="cajaN-A campo-formulario">
                              <label for="idNombre">Nombre *</label>
-                            <input type="text" name="Nombre" id="Nombre" placeholder="p ej.: Ada">
+                            <input type="text" name="Nombre" id="Nombre" placeholder="p. ej.: Ada" required>
                          </div>
 
-                         <div class="cajaN-A">
+                         <div class="cajaN-A campo-formulario">
                             <label for="idApellido">Apellido *</label>
-                            <input type="text" name="Apellido" id="idApellido" placeholder="p ej.:Lovelace">
+                            <input type="text" name="Apellido" id="idApellido" placeholder="p. ej.:Lovelace" required>
                         </div>
                     </div>
 
-                    <div>
+                    <div class="campo-formulario"> 
                         <label for="idEmail">Email *</label>
-                        <input type="email" name="email" id="idEmail" placeholder="p ej.: adalovelace@gmail.com">
+                        <input type="email" name="email" id="idEmail" placeholder="p. ej.: adalovelace@gmail.com" required>
                     </div>
 
-                    <div>
+                    <div class="campo-formulario"> 
                         <label for="idMensaje">Mensaje *</label>
-                        <textarea name="Mensjae" id="idMensaje" cols="30" rows="10">Escriba un mensaje aquí</textarea>
+                        <textarea name="Mensaje" id="idMensaje" cols="30" rows="10" required>Escriba un mensaje aquí</textarea>
                     </div>
 
-                    <button class="boton">Enviar</button>
+                    <button class="boton btn-formulario">Enviar</button>
 
                 </div>
             </div>

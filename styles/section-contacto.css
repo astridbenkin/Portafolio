@@ -6,6 +6,7 @@ section#contacto {
     background-color: #f6f7fb;
 }
 
+
 .container-contacto {
     width: 80%;
     display: flex; 
@@ -16,9 +17,20 @@ section#contacto {
     padding: 80px 60px;
 }
 
-.icono2 {
-    width: 30px;
-    height: 30px;
+.contactame-sitio {
+    margin: 10px 0;
+}
+.contactame-icono {
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: #6D62FB;
+    border: 1px solid #6D62FB;
+    border-radius: 50px;
+    margin-right: 5px;
+    padding: 2px;
+    vertical-align: middle;
+    line-height: 2.2rem;
+    transition: 0.2s;
 } 
 
 .contactame-columna {
@@ -69,4 +81,14 @@ input, textarea {
     color: #7D7D7D;
     padding: 5px;
     
+}
+
+.campo-formulario {
+    margin-bottom: 15px;
+}
+.btn-formulario {
+    width: 150px;
+    padding: 10px 40px;
+    font-size: 18px;
+    border: none; 
 }
