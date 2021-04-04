@@ -31,11 +31,11 @@ section#proyectos {
 }
 
 .cajita-img:hover {
-    border: 1px solid #6D62FB;
+    border: 1px solid #0097A7;
 }
 
 .cajita-img:focus {
-    box-shadow: 0px 0px 7px #6D62FB;
+    box-shadow: 0px 0px 7px #0097A7;
     outline: 0;
 }
 

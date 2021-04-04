@@ -34,6 +34,7 @@ section#hola {
 }
 
 .nombre {
+    color: #0097A7;;
     font-size: 65px;
     font-weight: bolder;
     margin-bottom: 15px;
@@ -52,7 +53,7 @@ section#hola {
     border-radius: 100px;
     height: 50px;
     width: 40%;
-    font-size: 20px;
+    background-color: #0097A7;
 }
 
 .container-hola-imagen {

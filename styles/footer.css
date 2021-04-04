@@ -4,7 +4,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:#6D62FB;
+    background-color:#0097A7;
     height: fit-content;
     padding: 20px;
 }
@@ -26,17 +26,31 @@ footer > div {
     justify-content: center;
 }
 
-.footer-iconos > div {
-    color:white;
-    margin: 5px 10px;
-
+.social-iconos {
+    display: block;
+    text-align: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    line-height: 2.7rem;
+    background-color: white;
+    color:#0097A7;
 }
 
-.footer-iconos > div > a {
+.social-iconos:hover{
+    background-color: #0097A7;;
     color: white;
+    border: 1px solid white;
+}
+
+.footer-iconos > div {
+    margin: 5px 10px;
+
 }
 
 .footer-autor {
     color: white;
 }
+
 
