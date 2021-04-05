@@ -18,9 +18,8 @@ section#proyectos {
 
 }
 
-.cajita-img {
+.cajita-proyecto {
     width: calc(100% / 3 - 0.75rem * 2);
-    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -28,13 +27,14 @@ section#proyectos {
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     margin: 0.75rem;
+    padding: 47px 0;
 }
 
-.cajita-img:hover {
+.cajita-proyecto:hover {
     border: 1px solid #0097A7;
 }
 
-.cajita-img:focus {
+.cajita-proyecto:focus {
     box-shadow: 0px 0px 7px #0097A7;
     outline: 0;
 }
