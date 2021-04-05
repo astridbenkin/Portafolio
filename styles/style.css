@@ -10,7 +10,7 @@
 
 body { 
     font-family: 'Philosopher', sans-serif;
-    font-size: 18px;
+    font-size: 1.2em;
 }  
  
 section {
@@ -22,11 +22,12 @@ section {
 
 h1 {
     font-size: 65px;
-    margin-bottom: 0.375em;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 50px;
+    margin-bottom: 30px;
 }
 
 .descripcion {
@@ -43,6 +44,11 @@ a {
 a:hover {
     color: #0097A7;
   
+}
+
+a:hover .contactame-icono {
+    background-color: #0097A7;
+    color: white ;
 }
 
 .boton:hover {
@@ -64,11 +70,10 @@ textarea {
   border-radius: 20px;
   background-color: #f6f7fb;
   border: 1px solid #f6f7fb;
-  font-size: 1em;
+  font-size: 0.9em;
   padding: 10px 15px;
   display: block;
   width: 100%;
-  /* outline: none; */
   transition: 0.2s;
 }
 
