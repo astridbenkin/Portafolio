@@ -1,4 +1,4 @@
-.headerbox {
+.container-header {
     width: 100%;
     background-color: #FFFFFF;
     position: fixed;
@@ -43,7 +43,7 @@
     background-color: #0097A7;
     color: white;
     border-radius: 50px;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 .nav-focus {
