@@ -21,15 +21,13 @@ section#cita {
 }
 
 .comillas-img {
-    height: 80px;
     width: 80px;
-    
 }
 
 .cita {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     max-width: 60%;
     margin-bottom: 40px;
     font-size: 22px;
