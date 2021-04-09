@@ -26,12 +26,12 @@ footer > div {
 }
 
 .social-iconos {
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     font-size: 1.2rem;
     text-align: center;
-    line-height: 2.8rem;
+    line-height: 2.4;
     color:#0097A7;
     background-color: white;
 }
